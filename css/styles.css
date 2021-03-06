@@ -72,8 +72,8 @@ body {
 .header {
   display: flex;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -124,7 +124,6 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
-  padding: 15px 0;
 }
 
 .logo-black {
@@ -141,7 +140,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-color);
-  padding: 15px 0;
 }
 
 .features-list {
@@ -174,7 +172,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--secondary-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .phone-link {
@@ -182,6 +180,14 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-container .mail-link {
+  color: var(--secondary-color);
+}
+
+.contacts-container .phone-link {
   color: var(--secondary-color);
 }
 
